@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f9fa; /* Light background for better contrast */
+}
+
+.navbar {
+  padding: 1rem; /* Increased padding for navbar */
+}
+
+/* Center the website name */
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem; /* Increased font size */
+  font-weight: bold; /* Bold text */
+}
+
+/* Logo styles */
+.logo {
+  height: 50px; /* Adjusted logo height */
+  margin-right: 15px; /* Space between logo and title */
+}
+
+/* Card styles */
+.card {
+  transition:ease-in-out;
+  margin: 1rem 0; /* Spacing between cards */
+}
+
+/* Button styles */
+.btn {
+  margin-top: 1rem; /* Space above button */
+}
+
+/* Blockquote styles */
+.blockquote {
+  text-align: left; /* Align blockquote text to the left */
+}
+
+/* List styles */
+ul {
+  padding-left: 20px; /* Padding for better readability */
+}
+
+/* Carousel image styles */
+.carousel-item img {
+  max-height: 500px; /* Limit height of carousel images */
+  object-fit: cover; /* Cover the area without distortion */
+}
+
+/* Card hover effect */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.navbar-brand{
+
+  height: 30px;
+  width: 30px;
+  display: flex;
+}
